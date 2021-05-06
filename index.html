@@ -54,14 +54,6 @@
         function pop_upstate_distance_poly_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">id</th>\
-                        <td>' + (feature.properties['id'] !== null ? Autolinker.link(feature.properties['id'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">cost_level</th>\
-                        <td>' + (feature.properties['cost_level'] !== null ? Autolinker.link(feature.properties['cost_level'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <th scope="row">travelTime</th>\
                         <td>' + (feature.properties['travelTime'] !== null ? Autolinker.link(feature.properties['travelTime'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
                     </tr>\
@@ -162,7 +154,7 @@
                 interactive: true,
             }
                     break;
-                case '60':
+                case '35':
                     return {
                 pane: 'pane_upstate_distance_poly_1',
                 opacity: 1,
@@ -178,7 +170,7 @@
             }
                    
                     break;
-                case '55':
+                case '40':
                     return {
                 pane: 'pane_upstate_distance_poly_1',
                 opacity: 1,
@@ -193,7 +185,7 @@
                 interactive: true,
             }
                     break;
-                case '50':
+                case '45':
                     return {
                 pane: 'pane_upstate_distance_poly_1',
                 opacity: 1,
@@ -208,7 +200,7 @@
                 interactive: true,
             }
                     break;
-                case '45':
+                case '50':
                     return {
                 pane: 'pane_upstate_distance_poly_1',
                 opacity: 1,
@@ -223,7 +215,7 @@
                 interactive: true,
             }
                     break;
-                case '40':
+                case '55':
                     return {
                 pane: 'pane_upstate_distance_poly_1',
                 opacity: 1,
@@ -238,7 +230,7 @@
                 interactive: true,
             }
                     break;
-                case '35':
+                case '60':
                     return {
                 pane: 'pane_upstate_distance_poly_1',
                 opacity: 1,
